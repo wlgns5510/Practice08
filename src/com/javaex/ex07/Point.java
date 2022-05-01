@@ -9,7 +9,15 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
-
+	public boolean equals(Object obj) {
+		Point p = (Point)obj;
+		if(this.x == p.x) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 	//equals() 메소드를 작성하세요.
 
 	

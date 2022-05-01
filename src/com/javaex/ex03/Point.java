@@ -10,6 +10,12 @@ public class Point {
 		this.y = y;
 	}
 
+	@Override
+	public String toString() {
+		return "[포인트] x:" + x + ", y:" + y + " 입니다.";
+	}
+
 	//toString()을 작성 하세요
+	
 
 }
